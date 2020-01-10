@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JobBoard</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="http://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/main.css">
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+
+
+<div class="background"></div>
+<div class="hero">
+	<header>
+		<div class="content">
+			<div class="logo">
+				<img src="img/logo.png">
+			</div>
+			<div>
+				<label class="show-nav-btn">
+					<i class="fa fa-bars" id="show-nav-btn"></i>
+				</label>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Browse Job</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Contact</a></li>
+					<li class="hide-nav-btn">
+						<i class="fa fa-close"></i>
+					</li>
+				</ul>
+			</div>
+			<div class="right">
+				<ul>
+					<li><a href="#">Log In</a></li>
+					<li><a href="#"><button class="primary-btn">Post A Job</button></a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="container content">
+		<div class="texts">
+			<h5>4536+ Jobs listed</h5>
+			<h1>Find your Dream Job</h1>
+			<p>We provide online instant cash loans with quick approval that suit your term length</p>
+			<button class="primary-btn">Upload Your Resume</button>
+		</div>
+		<div class="image">
+			<img src="img/illustration1.png">
+		</div>
+	</div>
+</div>
+
+<div class="category">
+	<div class="container">
+		<form class="row">
+			<div class="input-div col-4">
+				<input type="text" placeholder="Search keyword" class="input"></input>
+			</div>
+			<div class="input-div col-4">
+				<select class="input">
+					<option style="font-weight: bold;">Location</option>
+					<option>USA</option>
+					<option>RUSSIA</option>
+					<option>GEORGIA</option>
+				</select>
+			</div>
+			<div class="input-div col-4">
+				<select class="input">
+					<option style="font-weight: bold;">Category</option>
+					<option>Web Development</option>
+					<option>Marketing</option>
+					<option>Teacher</option>
+				</select>
+			</div>
+			<div class="input-div col-4">
+				<button class="primary-btn input">Find Job</button>
+			</div>
+		</form>
+		<div class="tags">
+			<div class="row">
+				<div class="tag">
+					Design & Creative
+				</div>
+				<div class="tag">
+					Marketing
+				</div>
+				<div class="tag">
+					Administrator
+				</div>
+				<div class="tag">
+					Teaching & Education
+				</div>
+				<div class="tag">
+					Engineering
+				</div>
+				<div class="tag">
+					Software & Web
+				</div>
+				<div class="tag">
+					Telemarketing
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="popular">
+	<div class="container">
+		<div>
+			<h1 class="title">Popular Categories</h1>			
+		</div>
+		<div class="row">
+			<div class="col-3 cont">
+				<div class="texts">
+					<h3>
+						Design & Creative
+					</h3>
+					<div>
+						<p>
+							<span class="number">50</span>
+							<span class="text">Available Position</span>
+						</p>
+					</div>	
+				</div>
+			</div>
+			<div class="col-3 cont">
+				<div class="texts">
+					<h3>
+						Marketing
+					</h3>
+					<div>
+						<p>
+							<span class="number">50</span>
+							<span class="text">Available Position</span>
+						</p>
+					</div>	
+				</div>
+			</div>
+			<div class="col-3 cont">
+				<div class="texts">
+					<h3>
+						Telemarketing
+					</h3>
+					<div>
+						<p>
+							<span class="number">50</span>
+							<span class="text">Available Position</span>
+						</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-3 cont">
+				<div class="texts">
+					<h3>
+						Software & Web
+					</h3>
+					<div>
+						<p>
+							<span class="number">50</span>
+							<span class="text">Available Position</span>
+						</p>
+					</div>	
+				</div>
+			</div>
+			<div class="col-3 cont">
+				<div class="texts">
+					<h3>
+						Administrator
+					</h3>
+					<div>
+						<p>
+							<span class="number">50</span>
+							<span class="text">Available Position</span>
+						</p>
+					</div>	
+				</div>
+			</div>
+			<div class="col-3 cont">
+				<div class="texts">
+					<h3>
+						Teaching & Education
+					</h3>
+					<div>
+						<p>
+							<span class="number">50</span>
+							<span class="text">Available Position</span>
+						</p>
+					</div>	
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="joblist">
+	<div class="container">
+		<div class="head">
+			<h1 class="title">Job Listing</h1>
+			<button class="secondary-btn">Browse More Jobs</button>
+		</div>
+		<div class="row">
+			<div class="col">
+				<div class="left">
+					<div class="image">
+						<img src="img/joblist/1.svg">
+					</div>
+					<div class="texts">
+						<p class="name">Software Engineer</p>
+						<div class="data">
+							<span>
+								<i class="fa fa-map-marker"></i>
+								<span class="text">California, USA</span>
+							</span>
+							<span>
+								<i class="fa fa-clock-o"></i>
+								<span class="text">Part-Time</span>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="buttons">
+						<button class="secondary-btn">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button class="primary-btn">Apply Now</button>
+					</div>
+					<div class="text">
+						<span>Date line: 31 Jan 2020</span>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="left">
+					<div class="image">
+						<img src="img/joblist/2.svg">
+					</div>
+					<div class="texts">
+						<p class="name">Digital Marketer</p>
+						<div class="data">
+							<span>
+								<i class="fa fa-map-marker"></i>
+								<span class="text">California, USA</span>
+							</span>
+							<span>
+								<i class="fa fa-clock-o"></i>
+								<span class="text">Part-Time</span>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="buttons">
+						<button class="secondary-btn">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button class="primary-btn">Apply Now</button>
+					</div>
+					<div class="text">
+						<span>Date line: 31 Jan 2020</span>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="left">
+					<div class="image">
+						<img src="img/joblist/3.svg">
+					</div>
+					<div class="texts">
+						<p class="name">Wordpress Developer</p>
+						<div class="data">
+							<span>
+								<i class="fa fa-map-marker"></i>
+								<span class="text">California, USA</span>
+							</span>
+							<span>
+								<i class="fa fa-clock-o"></i>
+								<span class="text">Part-Time</span>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="buttons">
+						<button class="secondary-btn">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button class="primary-btn">Apply Now</button>
+					</div>
+					<div class="text">
+						<span>Date line: 31 Jan 2020</span>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="left">
+					<div class="image">
+						<img src="img/joblist/4.svg">
+					</div>
+					<div class="texts">
+						<p class="name">Visual Designer</p>
+						<div class="data">
+							<span>
+								<i class="fa fa-map-marker"></i>
+								<span class="text">California, USA</span>
+							</span>
+							<span>
+								<i class="fa fa-clock-o"></i>
+								<span class="text">Part-Time</span>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="buttons">
+						<button class="secondary-btn">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button class="primary-btn">Apply Now</button>
+					</div>
+					<div class="text">
+						<span>Date line: 31 Jan 2020</span>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="left">
+					<div class="image">
+						<img src="img/joblist/5.svg">
+					</div>
+					<div class="texts">
+						<p class="name">Software Engineer</p>
+						<div class="data">
+							<span>
+								<i class="fa fa-map-marker"></i>
+								<span class="text">California, USA</span>
+							</span>
+							<span>
+								<i class="fa fa-clock-o"></i>
+								<span class="text">Part-Time</span>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="buttons">
+						<button class="secondary-btn">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button class="primary-btn">Apply Now</button>
+					</div>
+					<div class="text">
+						<span>Date line: 31 Jan 2020</span>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="left">
+					<div class="image">
+						<img src="img/joblist/1.svg">
+					</div>
+					<div class="texts">
+						<p class="name">Software Engineer</p>
+						<div class="data">
+							<span>
+								<i class="fa fa-map-marker"></i>
+								<span class="text">California, USA</span>
+							</span>
+							<span>
+								<i class="fa fa-clock-o"></i>
+								<span class="text">Part-Time</span>
+							</span>
+						</div>
+					</div>
+				</div>
+				<div class="right">
+					<div class="buttons">
+						<button class="secondary-btn">
+							<i class="fa fa-heart"></i>
+						</button>
+						<button class="primary-btn">Apply Now</button>
+					</div>
+					<div class="text">
+						<span>Date line: 31 Jan 2020</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script type="text/javascript">
+	
+$("#show-nav-btn").on("click", function() {
+	$(".nav").show(1);
+	$(".nav").css("right", "0")
+	$(".hide-nav-btn").show();
+	$(".right").show(100)
+	$(".right ul").css("right", "0")
+})
+$(".hide-nav-btn").on("click", function() {
+	$(".nav").css("right", "-100%");
+	$(".nav").hide(100);
+	$(".hide-nav-btn").hide();
+	$(".right").hide(100)
+	$(".right ul").css("right", "-100%")
+
+})
+
+</script>
+</body>
+</html>
